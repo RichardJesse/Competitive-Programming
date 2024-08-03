@@ -4,7 +4,10 @@ function dominoPiler(mDimension, nDimension) {
 
   var pilableDominos = Math.trunc(avalilableArea / dominoDimension);
 
-  return pilableDominos;
+  print(pilableDominos);
 }
+
+var inputs = readline().split(' ');
+dominoPiler(inputs[0], inputs[1]);
 
 
